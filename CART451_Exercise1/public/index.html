@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Netflix 2022 Dataset</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+    </head>
+    <body>
+        <h2>The Netflix Dataset</h2>
+        <script src="" async defer></script>
+        <form id="search-form">
+            <label for="criteria">Search Criteria:</label>
+            <select name="criteria" id="criteria">
+                <option value="title">Title</option>
+                <option value="genre">Genre</option>
+                <option value="premiere">Premiere</option>
+                <option value="runtime">Runtime</option>
+                <option value="language">Language</option>
+            </select>
+            <input type="text" id="query" name="query">
+            <br>
+            <button type="submit">Search</button>
+        </form>
+        <br>
+        <div id="response">Query Response:</div>
+    </body>
+</html>
